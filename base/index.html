@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INICIO</title>
-</head>
-<body>
-    <div>
-        <h1>BASE</h1>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1>PROTÓTIPO</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="conteudo">
+      <section>
         <div>
-            <p>Nome: Leandro Correia Alves Filho</p>
-            <p>Gituser: correialeo</p>
+            <h2>HELP</h2>
+            <i>-</i>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum,
+                cupiditate illum aut repellat rerum nihil sed! Aspernatur qui amet,
+                natus esse illum nam voluptates fugit nulla dignissimos mollitia,
+                quam quas provident sed tempora numquam ea dolorem. 
+            </p>
         </div>
-    </div>
-</body>
+        <div>
+            <h2>ABOUT</h2>
+            <i>-</i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum,
+                cupiditate illum aut repellat rerum nihil sed! Aspernatur qui amet,
+                natus esse illum nam voluptates fugit nulla dignissimos mollitia,
+                quam quas provident sed tempora numquam ea dolorem.
+            </p>
+        </div>
+      </section>
+      <section>
+        <h2>CADASTRO
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <input type="text" name="txtNmCompleto" id="nmCompleto" placeholder="Nome Completo">
+                        <label for="nmCompleto">*Campo Obrigatório</label>
+                    </div>
+                    <div>
+                        <input type="email" name="txtEmail" id="email" placeholder="Email">
+                        <label for="email">*Campo Obrigatório</label>
+                    </div>
+                    <div>
+                        <button type="button">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </h2>
+      </section>
+    </main>
+    <footer id="rodape">
+        <nav>
+            <ul>
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Google</a></li>
+              <li><a href="#">X</a></li>
+            </ul>
+          </nav>
+          <p>&copy; Copyright - Protótipo 2024</p>
+    </footer>
+  </body>
 </html>
