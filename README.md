@@ -3,8 +3,8 @@
 ## Este protótipo está sendo desenvovido no Figma e será implementado  em HTML/CSS.
 
 - [x] Pagina Inicial (Home)
-- [ ] Header com título e menu de navegação
-- [ ] Seção de Conteúdo  principal: Esta seção será dividida em duas partes horizontais.  A direita terá um formulário e a esquerda o conteúdo de Help e About.
+- [x] Header com título e menu de navegação
+- [x] Seção de Conteúdo  principal: Esta seção será dividida em duas partes horizontais.  A direita terá um formulário e a esquerda o conteúdo de Help e About.
 ## Lado esquerdo da seção de conteúdo:
 - [ ] Título principal "HELP"
 - [ ] Parágrafo explicando o que é a plataforma Help, seus objetivos e missão.
