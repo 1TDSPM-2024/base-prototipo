@@ -1,0 +1,14 @@
+
+/*COMENTÁRIO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #cabecalho{
+      background-color: aqua;
+      height: 190px;
+      width: 100%;
+      display: inline;
+  }
