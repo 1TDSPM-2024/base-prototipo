@@ -6,12 +6,67 @@
     <title>INICIO</title>
 </head>
 <body>
-    <div>
-        <h1>BASE</h1>
-        <div>
-            <p>Nome:Alexandre</p>
-            <p>Gituser:alecarlosjesus</p>
-        </div>
-    </div>
+    
+    <header id="cabecalho">
+        <h1>PROTÓTIPO</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Item-1</a></li>
+                <li><a href="#">Item-2</a></li>
+                <li><a href="#">Item-3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section>
+            <div>
+                <h2>HELP</h2>
+                <i>-</i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum aut earum? Modi asperiores fuga quaerat eveniet provident consequatur, nostrum repellat ut excepturi soluta culpa harum deserunt assumenda nihil maiores.
+                </p>
+            </div>
+            <div>
+                <h2>ABOUT</h2>
+                <i>-</i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum aut earum? Modi asperiores fuga quaerat eveniet provident consequatur, nostrum repellat ut excepturi soluta culpa harum deserunt assumenda nihil maiores.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>CADASTRO</h2>
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <!-- Os atributos type e name são obrigatórios! -->
+                        <input type="text" name="txtNmCompleto" id="idNmCompleto" placeholder="Nome completo">
+                        <label for="idNmCompleto">*Campo obrigatório</label>
+                    </div>
+                    <div>
+                        <!-- Os atributos type e name são obrigatórios! -->
+                        <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                        <label for="idEmail">*Campo obrigatório</label>
+                    </div>
+                    <div>
+                        <button type="button">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <nav>
+            <ul>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </nav>
+        <p>&copy; COPYRIGHT - PROTÓTIPO 2024</p>
+    </footer>
 </body>
 </html>
