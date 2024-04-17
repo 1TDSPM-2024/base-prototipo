@@ -8,6 +8,19 @@
 #cabecalho{
     justify-content:space-between;
     align-items: center;
+    background-color: aqua;
+    width: auto;
+    height: auto;
+}
+
+#titulo1{
+    color: white; 
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    position: relative;
+    top: 90px; left: 60px;
 }
 
 #cabecalho ul{
@@ -15,9 +28,12 @@
     flex-direction: row;
     justify-content: flex-end;
     padding: 60px;
+    list-style-type: none
 }
 
 #cabecalho img{
-    width: 96px;
-    height: 96px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 50px; right: 60px;
 }
