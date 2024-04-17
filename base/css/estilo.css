@@ -6,7 +6,18 @@
 }
 
 #cabecalho{
-    background-color: #1E2836;
-    height: 190px;
-    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 60px;
+}
+
+#cabecalho img{
+    width: 96px;
+    height: 96px;
 }
