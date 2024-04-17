@@ -23,12 +23,12 @@
 
 ## Equipes
 - [EQUIPE - CABECALHO]
-- Erick - Leandro-C - Vitor - Iris - Eduardo-C
+- Erick - Leandro-C - Vitor - Iris - Eduardo-C - Luiz-H - Samuel-D
 - [EQUIPE - HELP]
-- Igor - Eduardo-M - Felipe - Valéria - Guilherme-R
+- Igor - Eduardo-M - Felipe - Valéria - Guilherme-R - Julia
 - [EQUIPE - ABOUT]
-- Falanga - Rodrigo - Bianca - Isabella - Maria
+- Falanga - Rodrigo - Bianca - Isabella - Maria - Leandro-P
 - [EQUIPE - CADASTRO]
-- Enzo - Cicero - Gabriel-S - Mirela - Arthur
+- Enzo - Cicero - Gabriel-S - Mirela - Arthur - Gabriel-P - Murilo-C
 - [EQUIPE - RODAPÉ]
-- Paula - Tais - Murilo - Cristian - Luiz-E
+- Paula - Tais - Murilo - Cristian - Luiz-E - Guilherme-P - Vicenzo
