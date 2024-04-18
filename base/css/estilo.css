@@ -6,7 +6,8 @@
 }
 
 #cabecalho{
-    justify-content:space-between;
+    display: flex;
+    justify-content:space-around;
     align-items: center;
     background-image: url(../img/banner-1280x640.png);
     background-position: 100%;
@@ -22,8 +23,7 @@
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
-    position: relative;
-    top: 30%; left: 5%;
+    
 }
 
 #cabecalho ul{
@@ -38,5 +38,9 @@
     width: 70px;
     height: 70px;
     position: relative;
-    bottom: 50px; right: 60px;
+    
+}
+.link-cabecalho{
+    display:flex;
+    gap: 100px;
 }
