@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #1E2836;
+}
 
 #cabecalho{
-    background-color: aqua;
     height: 190px;
     width: 100%;
     display: inline;
@@ -15,14 +17,19 @@
 #conteudo{
     display: flex;
     flex-direction: row;
-    background-color: rgb(18, 17, 95);
 }
 
 #container{
-    width: 100px;
-    height: 320vh;
-    background-color: rgb(87, 167, 136);
+    width: 320vh;
+    height: 80vh;
     border: solid 3px red;
+}
+
+#teste{
+    width: 320vh;
+    height: 80vh;
+    border: solid 3px red;
+    background-color: goldenrod;
 }
 
 
@@ -30,16 +37,27 @@
     color: #FFFFFF;
     margin-left: 10px;
     font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    width: 10%;
+    font-weight: 700;
 }
 
+.help-img{
+    width: 55px;
+    height: 55px;
+}
 
 .help-p{
-    margin: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    text-align: left;
 }
 
 
