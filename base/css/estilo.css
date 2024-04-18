@@ -17,10 +17,24 @@ body {
     width: 710px;
     height: 320px;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#titulo-icone {
+    display: flex;
+    justify-content: space-between;
 }
 
 #title-about {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#icon-about {
+    width: 45px;
+    height: 45px;
 }
