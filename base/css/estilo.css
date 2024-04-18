@@ -2,15 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
- 
-  #cabecalho{
-      background-color: aqua;
-      height: 190px;
-      width: 100%;
-      display: inline;
-  }
+}
 
-  #conteudo{
-    background-color: rosybrown;
-  }
+#cabecalho{
+    background-color: aqua;
+    height: 190px;
+    width: 100%;
+    display: inline;
+}
+
+#conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    
+}
+
+.help{
+    background-color: rgb(46, 206, 206);
+    width: 700px;
+    height: 320px;
+}
+
+.help-p{
+    
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.vertical {
+  height: 500px;
+  border-right: 2px solid;  
+}
