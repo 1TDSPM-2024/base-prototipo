@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 #cabecalho{
     background-color: aqua;
     height: 190px;
@@ -12,35 +13,43 @@
 }
 
 #conteudo{
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: row;
-    background-color: beige;
-    
+    background-color: rgb(18, 17, 95);
 }
 
-.help{
-    background-color: rgb(46, 206, 206);
-    width: 700px;
-    height: 320px;
+#container{
+    width: 100px;
+    height: 320vh;
+    background-color: rgb(87, 167, 136);
+    border: solid 3px red;
 }
+
+
+.help-t{
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
 
 .help-p{
-    
+    margin: 40px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
+
 
 hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+    display: block;
+    height: 3px;
+    border-width: 3; 
+	border-top-width: 1px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 1%;
 }
 
-.vertical {
-  height: 500px;
-  border-right: 2px solid;  
-}
