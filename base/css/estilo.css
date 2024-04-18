@@ -11,3 +11,10 @@ body {
     padding: 0px;
 }
 
+#box-about {
+    background-color: #1E2836;
+    color: #fff;
+    width: 710px;
+    height: 320px;
+    font-family: sans-serif;
+}
