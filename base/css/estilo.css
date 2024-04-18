@@ -13,8 +13,14 @@ body {
 
 #box-about {
     background-color: #1E2836;
-    color: #fff;
+    color: #ffff;
     width: 710px;
     height: 320px;
     font-family: sans-serif;
+}
+
+#title-about {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
