@@ -22,36 +22,32 @@ body{
 #container{
     width: 320vh;
     height: 80vh;
-    border: solid 3px red;
 }
 
-#teste{
+#container-cadastro{
     width: 320vh;
     height: 80vh;
-    border: solid 3px red;
-    background-color: goldenrod;
+    background-color: rgb(51, 62, 77);
 }
-
 
 .help-t{
     color: #FFFFFF;
     margin-left: 10px;
     font-family: "Roboto", sans-serif;
     font-size: 30px;
-    width: 10%;
+    width: 8%;
     font-weight: 700;
 }
 
+/* TAREFA REAJUSTAR O ICONE DO HELP */ 
 .help-img{
     width: 55px;
     height: 55px;
 }
 
+
 .help-p{
-    margin-top: 20px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
+    margin: 20px 40px 40px 40px;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -61,7 +57,7 @@ body{
 }
 
 
-hr {
+hr{
     display: block;
     height: 3px;
     border-width: 3; 
