@@ -1,4 +1,15 @@
  footer{
+    width: 100%;
+    font-size: 28px;
+    background-color: #1E2836;
     
  }
  
+
+
+
+ .copy{
+    background-color: #1E2836;
+    text-align: center;
+    font-family: sans-serif;
+ }
