@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,64 +14,43 @@ body{
     display: inline;
 }
 
-#conteudo{
+#box-help {
+    background-color: #1E2836;
+    color: #ffff;
+    width: 710px;
+    height: 321px;
+    font-family: sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 20px;
 }
 
-#container{
-    width: 320vh;
-    height: 80vh;
-}
-
-#container-cadastro{
-    width: 320vh;
-    height: 80vh;
-    background-color: rgb(51, 62, 77);
-}
-
-.help-t{
+.titulo-icone{
     display: flex;
-    color: #FFFFFF;
-    margin-left: 10px;
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    width: 8%;
-    font-weight: 700;
-}
-
-/* TAREFA REAJUSTAR O ICONE DO HELP */ 
-.help-img{
-    width: 50px;
-    height: 50px;
-    margin: 2%;
-    
-}
-
-.container-h2{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.help-p{
-    margin: 20px 40px 40px 40px;
-    color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: left;
+#title-help{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
+#help-img{
+    width: 45px;
+    height: 45px;
+}
 
-hr{
-    display: block;
+.text-help {
+    text-align: justify;
+    margin-right: 60px;
+}
+
+hr {
+    background-color: #fff;
+    border: 0px;
+    margin-left: 23px;
+    width: 666px;
     height: 3px;
-    border-width: 3; 
-	border-top-width: 1px;
-    border-color: #FFFFFF;
-    background-color: #FFFFFF;
-    margin: 2%;
 }
-
