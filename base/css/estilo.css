@@ -29,12 +29,17 @@
     margin-bottom: 15px;
 }
 
-#title-about {
+#titulo-about {
     font-size: 30px;
     font-weight: bold;
 }
 
-#icon-about {
+#icone-about {
     width: 45px;
     height: 45px;
+}
+
+#texto-about {
+    text-align: justify;
+    margin-right: 60px;
 }
