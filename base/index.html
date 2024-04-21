@@ -32,23 +32,20 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae nihil suscipit. Recusandae odio ipsam molestias suscipit dignissimos, dolores nihil natus inventore minus impedit ea vero. Accusamus dolorem est fugiat.</p>
             </div>
         </section>
-        <section>
-            <h2>CADASTRO</h2>
-            <form>
-                <fieldset>
-                    <legend>Dados Pessoais</legend>
-                    <div>
-                        <input type="text" name="TxtNMCompleto" id="TxtNMCompleto" placeholder="Nome Completo">
-                        <label for="NMCompleto">Campo Obrigatório</label>
-                    </div>
-                    <div>
-                        <input type="text" name="TxtEmail" id="TxtEmail" placeholder="Email">
-                        <label for="NMCompleto">Campo Obrigatório</label>
-                    </div>
-                    <div>
-                        <button type="button">Enviar</button>
-                    </div>
-                </fieldset>
+        <section id="cadastro">
+            <h2 id="title">CADASTRO</h2>
+            <form class="inputs">
+                <div id="campoNome">
+                <input type="text" name="TxtNMCompleto" id="txtfield1" class="textfield" placeholder="Nome Completo">
+                    <label for="NMCompleto" id="campo">*Campo Obrigatório</label>
+                </div>
+                <div id="campoEmail">
+                    <input type="text" name="TxtEmail" id="txtfield2" class="textfield" placeholder="Email">
+                    <label for="NMCompleto" id="campo">*Campo Obrigatório</label>
+                </div>
+                <div id="botaoEnviar">
+                    <button type="button" id="button">Enviar</button>
+                </div>
             </form>
         </section>
     </main>
