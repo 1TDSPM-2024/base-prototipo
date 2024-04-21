@@ -24,3 +24,16 @@
     font-weight: bold;
     margin-bottom: 90px;
 }
+.textfield{
+    height: 80px;
+    width: 660px;
+    border-radius: 10px;
+    border: 6px solid #CFCACA;
+    font-size: 30px;
+    padding-left: 23px;
+}
+.textfield::placeholder{
+    font-weight: lighter;
+    color: #b6acac;
+    opacity: 1;
+}
