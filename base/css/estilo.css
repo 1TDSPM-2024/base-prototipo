@@ -1,7 +1,17 @@
-/* COMENTÁRIO */
-
+/*COMENTÁRIO*/
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
 #cabecalho{
     background-color: aqua;
     height: 100%;
     width: 100%;
+}
+#cadastro{
+    color: #fff;
+    background-color: #4b545f;
+    height: 784px;
+    width: 710px;
+    display: flex;
 }
