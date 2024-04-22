@@ -1,7 +1,60 @@
-/* COMENTÁRIO */
-
+/*COMENTÁRIO*/
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
 #cabecalho{
     background-color: aqua;
     height: 100%;
     width: 100%;
+}
+#cadastro{
+    color: #fff;
+    background-color: #4b545f;
+    height: 784px;
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#title{
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 90px;
+}
+.textfield{
+    height: 80px;
+    width: 660px;
+    border-radius: 10px;
+    border: 6px solid #CFCACA;
+    font-size: 30px;
+    padding-left: 23px;
+}
+.textfield::placeholder{
+    font-weight: lighter;
+    color: #b6acac;
+    opacity: 1;
+}
+#campoNome{
+    margin-bottom: 56px;
+}
+#campoEmail{
+    margin-bottom: 90px;
+}
+.campo{
+    color: #ff0000;
+    font-size: 20px;
+    margin-right: 485px; 
+}
+#button{
+    color: #ffffff;
+    background-color: #1d2836;
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+    font-size: 30px;
 }
