@@ -25,16 +25,9 @@ body{
     padding: 20px;
 }
 
-.titulo-icone{
-    display: flex;
-    justify-content: space-between;
-}
-
 #title-help{
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 15px;
-    margin-top: 10px;
 }
 
 #help-img{
@@ -54,3 +47,20 @@ hr {
     width: 666px;
     height: 3px;
 }
+
+#box-about {
+    background-color: #1E2836;
+    color: #ffff;
+    width: 710px;
+    height: 321px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.titulo-icone {
+    display: flex;
+    justify-content: space-between;
+}
+
