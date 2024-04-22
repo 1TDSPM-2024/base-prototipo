@@ -8,6 +8,11 @@ body{
     background-color: #1E2836;
 }
 
+#conteudo{
+    display: flex;
+ }
+
+
 #cabecalho{
     height: 190px;
     width: 100%;
@@ -40,7 +45,7 @@ body{
     margin-right: 60px;
 }
 
-hr {
+hr{
     background-color: #fff;
     border: 0px;
     margin-left: 23px;
@@ -63,4 +68,3 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-
