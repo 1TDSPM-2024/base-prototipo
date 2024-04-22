@@ -37,3 +37,15 @@
     color: #b6acac;
     opacity: 1;
 }
+#campoNome{
+    margin-bottom: 56px;
+}
+#campoEmail{
+    margin-bottom: 90px;
+}
+#campo{
+    color: #ff0000;
+    font-size: 20px;
+    margin-right: 10px;
+ 
+}
