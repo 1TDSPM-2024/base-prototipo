@@ -49,3 +49,12 @@
     margin-right: 10px;
  
 }
+#button{
+    color: #ffffff;
+    background-color: #1d2836;
+    border: 4px solid #ffffff;
+    border-radius: 5px;
+    height: 90px;
+    width: 250px;
+    font-size: 30px;
+}
