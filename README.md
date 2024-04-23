@@ -3,8 +3,8 @@
 ## Este protótipo está sendo desenvovido no Figma e será implementado  em HTML/CSS.
 
 - [x] Pagina Inicial (Home)
-- [ ] Header com título e menu de navegação
-- [ ] Seção de Conteúdo  principal: Esta seção será dividida em duas partes horizontais.  A direita terá um formulário e a esquerda o conteúdo de Help e About.
+- [x] Header com título e menu de navegação
+- [x] Seção de Conteúdo  principal: Esta seção será dividida em duas partes horizontais.  A direita terá um formulário e a esquerda o conteúdo de Help e About.
 ## Lado esquerdo da seção de conteúdo:
 - [ ] Título principal "HELP"
 - [ ] Parágrafo explicando o que é a plataforma Help, seus objetivos e missão.
@@ -21,3 +21,14 @@
   - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório.
   - [ ] Adicionar uma cor vermelha ao texto.
 
+## Equipes
+- [EQUIPE - CABECALHO]
+- Erick - Leandro-C - Vitor - Iris - Eduardo-C - Luiz-H - Samuel-D
+- [EQUIPE - HELP]
+- Igor - Eduardo-M - Felipe - Valéria - Guilherme-R - Julia
+- [EQUIPE - ABOUT]
+- Falanga - Rodrigo - Bianca - Isabella - Maria - Leandro-P
+- [EQUIPE - CADASTRO]
+- Enzo - Cicero - Gabriel-S - Mirela - Arthur - Gabriel-P - Murilo-C
+- [EQUIPE - RODAPÉ]
+- Paula - Tais - Murilo - Cristian - Luiz-E - Guilherme-P - Vicenzo
