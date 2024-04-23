@@ -13,60 +13,48 @@
   </head>
   <body>
     <header id="cabecalho">
-      <h1>PROTÓTIPO</h1>
+      <h1 id="titulo1">PROTÓTIPO</h1>
       <nav>
-        <ul>
-          <li><a href="#">Item-1</a></li>
-          <li><a href="#">Item-2</a></li>
-          <li><a href="#">Item-3</a></li>
-        </ul>
+          <ul>
+              <li class="link-cabecalho">
+                  <a href="#"><img src="./img/icon-help.png" alt="help"></a>
+                  <a href="#"><img src="./img/icon-about.png" alt="about"></a>
+                  <a href="#"><img src="./img/icon-email.png" alt="email"></a>
+              </li>
+          </ul>
       </nav>
-    </header>
-
+  </header>
     <main id="conteudo">
       <section>
-        <div>
-          <h2>HELP</h2>
-          <i>-</i>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            molestiae nihil suscipit. Recusandae odio ipsam molestias suscipit
-            dignissimos, dolores nihil natus inventore minus impedit ea vero.
-            Accusamus dolorem est fugiat.
-          </p>
+        <div id="box-help">
+            <div class="titulo-icone">
+                <h2 id="title-help">HELP</h2>
+                <img id="help-img" src="./img/help.png" alt="ícone help">
+            </div>
+            <p class="text-help">Ao explorar nossos produtos ou serviços, você pode navegar pelas categorias ou usar nossa barra de pesquisa para encontrar exatamente o que está procurando. Ao encontrar um item que lhe interesse, clique nele para obter mais detalhes, imagens e preços. Adicione os itens desejados ao seu carrinho de compras e prossiga para o checkout quando estiver pronto para fazer sua compra.<br><br> </p>
+            <p class="text-help">Se você tiver alguma dúvida durante sua visita, nossa página de contato é o lugar para ir. Lá, você encontrará informações sobre como nos contatar por e-mail ou telefone durante o horário comercial. Estamos aqui para ajudar e responder a todas as suas perguntas da melhor maneira possível. Por favor, leia nossa política de privacidade e termos de uso para entender como suas informações são tratadas ao usar nosso site. </p>
         </div>
-        <div>
-          <h2>ABOUT</h2>
-          <i>-</i>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            molestiae nihil suscipit. Recusandae odio ipsam molestias suscipit
-            dignissimos, dolores nihil natus inventore minus impedit ea vero.
-            Accusamus dolorem est fugiat.
-          </p>
+
+        <hr>
+
+        <div id="box-about" >
+          <div class="titulo-icone">
+              <h2 id="titulo-about">ABOUT</h2>
+              <img id="icone-about" src="./img/about.png" alt="ícone about">
+          </div>
+          <p id="texto-about">Desde nossa fundação, somos uma empresa que coloca a excelência em primeiro lugar. Com um compromisso inabalável com a qualidade, buscamos continuamente oferecer soluções inovadoras e serviços de alto padrão para nossos clientes. Nossa jornada é marcada pela busca incessante pela compreensão das necessidades específicas de cada cliente, garantindo que possamos superar suas expectativas e contribuir para seu sucesso.<br><br>Nosso diferencial está em nossa equipe talentosa e dedicada, que trabalha incansavelmente para evoluir e adaptar nossos produtos e serviços às demandas do mercado. Estamos entusiasmados em colaborar com você e empenhados em proporcionar uma experiência excepcional em cada interação.</p>
         </div>
       </section>
+
       <section id="cadastro">
         <h2 id="title">CADASTRO</h2>
         <form class="inputs">
           <div id="campoNome">
-            <input
-              type="text"
-              name="TxtNMCompleto"
-              id="txtfield1"
-              class="textfield"
-              placeholder="Nome Completo"
-            />
+            <input type="text" name="TxtNMCompleto" id="txtfield1" class="textfield" placeholder="Nome Completo"/>
             <label for="NMCompleto" class="campo">*Campo Obrigatório</label>
           </div>
           <div id="campoEmail">
-            <input
-              type="text"
-              name="TxtEmail"
-              id="txtfield2"
-              class="textfield"
-              placeholder="Email"
-            />
+            <input type="text" name="TxtEmail" id="txtfield2" class="textfield" placeholder="Email"/>
             <label for="NMCompleto" class="campo">*Campo Obrigatório</label>
           </div>
           <div id="botaoEnviar">
@@ -74,7 +62,9 @@
           </div>
         </form>
       </section>
+
     </main>
+
     <footer id="rodape">
       <nav>
         <ul class="container">
@@ -93,7 +83,7 @@
         </ul>
       </nav>
       <p class="copy">&copy; COPYRIGHT - PROTÓTIPO 2024</p>
-          
+      
     </footer>
   </body>
 </html>
